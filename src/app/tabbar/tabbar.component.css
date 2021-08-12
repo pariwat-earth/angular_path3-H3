@@ -1,0 +1,15 @@
+.toolbar{
+  width: 100%;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.example-icon {
+  padding: 0 14px;
+}
+.Topcard{
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 16px;
+  font-weight: normal;
+}

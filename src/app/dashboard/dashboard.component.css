@@ -1,0 +1,144 @@
+.textheard{
+  font-size: 1.6rem;
+  margin: 5%;
+}
+.Topcard{
+  background-color: rgb(218, 241, 248);
+  color: rgb(72, 130, 184);
+  border-radius: 5px 5px 0px 0px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.Tophearder{
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid rgb(235, 233, 233);
+  border-top:3px solid rgb(11, 128, 236);
+  font-size: 16px;
+  font-weight: normal;
+}
+.TopCommon{
+
+}
+ mat-card{
+  border-radius: 0px 0px 5px 5px;
+ }
+ .common{
+  max-width: 50px;
+  min-width: 200px;
+  min-height: 140px;
+  max-height: 160px;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#com1{
+  float: left;
+  margin: 20px;
+}
+#com2{
+  margin: 20px;
+}
+#com3{
+  float: left;
+}
+#com4{
+  margin: 20px;
+}
+ .moreInfo{
+  border-radius: 5px 5px 5px 5px;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ #Order{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .tablenomal{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: fit-content;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.Latest{
+  display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.boxdata1{
+}
+.btnnomal{
+  background-color: rgb(60, 164, 212);
+  color:white;
+  width: 3rem;
+  margin: 5px;
+  font-size:12px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+.btnbig{
+  background-color: rgb(60, 164, 212);
+  color:white;
+  margin: 5px;
+  font-size:12px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+ @media only screen and (min-width: 1200px) {
+  .TopCommon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .common{
+    max-width: 300px;
+    min-width: 220px;
+    min-height: 140px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #com1{
+    margin: 5px 5px 0px 5px;
+  }
+  #com2{
+    margin: 5px;
+  }
+  #com3{
+    margin: 0px 5px 0px 5px;
+  }
+  #com4{
+    margin: 5px;
+  }
+  .boxdata1{
+    float: left;
+    width:45%;
+  }
+  .Latest{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+ }
+
+

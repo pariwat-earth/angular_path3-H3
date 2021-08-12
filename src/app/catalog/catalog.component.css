@@ -1,0 +1,107 @@
+.hearderbar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hearderFont{
+  font-size: 2rem;
+  margin-top: 5px;
+}
+.buttonmargin{
+  margin: 3px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.marginclass{
+  margin-top: 3%;
+  border-top: 1px solid rgb(206, 206, 206);
+  border-radius: 5px 5px 5px 5px;
+}
+.toolbarheardcard{
+  background-color: white;
+}
+.textheardcard span{
+  font-size: 18px;
+}
+.textheardcard mat-icon{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 2%;
+}
+.inputboxin{
+  height: 2rem;
+  width: 20rem;
+  border: 1px solid #5a5858;
+}
+.buttonlastcard{
+  text-align: center;
+  margin: 2%;
+}
+.bordertable1{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.bordertable1 td{
+  /* border: 1px solid #a09f9f; */
+  text-align: left;
+  padding: 8px;
+}
+.bordertable{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.bordertable td,th{
+  border: 1px solid #a09f9f;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+.bordertable tr:nth-child(odd){
+  background-color: #dddddd;
+}
+.buttonedit{
+  margin: 3px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #5a5858;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.marginclasslast{
+  margin-top: 3%;
+  border-top: 1px solid rgb(206, 206, 206);
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #a09f9f;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .hearderbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+  }
+  .hearderFont{
+    align-self: flex-start;
+    margin-right: auto;
+  }
+  .buttonmargin{
+    margin-left: auto;
+  }
+  .inputboxin{
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid #5a5858;
+  }
+}

@@ -1,0 +1,60 @@
+mat-sidenav-container{
+  height: 100%;
+  background-color: white;
+}
+mat-sidenav{
+  background-color:#3F51B5;
+}
+
+mat-list-item{
+  border: 0%;
+  margin: 0%;
+}
+
+mat-icon{
+  color: aliceblue;
+}
+.logo2{
+  font-size: 2rem;
+}
+.logo{
+  font-size: 3rem;
+}
+span{
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+svg{
+  color: aliceblue;
+  width: 20px;
+  height: 20px;
+}
+mat-label{
+  color: aliceblue;
+}
+input{
+  color: white;
+  caret-color: white
+}
+mat-form-field.mat-form-field {
+  font-size: 16px;
+  color: white;
+}
+.inputsetting{
+  text-align: center;
+}
+::placeholder {
+  color:white;
+  opacity: 0.5; /* Firefox */
+}
+.mat-icon-rtl-mirror{
+  color: white;
+}
+mat-tree-node{
+  background-color: #3F51B5;
+}
+.intreenode{
+  color: aliceblue;
+  margin-left: 5px;
+}

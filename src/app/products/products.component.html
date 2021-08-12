@@ -1,0 +1,259 @@
+<div class="hearderbar">
+  <span class="hearderFont">Products</span>
+
+  <div>
+    <button mat-flat-button class="buttonmargin" style="background-color: rgb(0, 183, 255);">
+      <mat-icon>add</mat-icon> Add new</button>
+    <button mat-flat-button class="buttonmargin" style="background-color: rgb(99, 38, 99);">
+      <mat-icon>download</mat-icon> Download catalog as PDF</button>
+    <button mat-flat-button class="buttonmargin" style="background-color: green;">
+      <mat-icon>book</mat-icon> Export </button>
+    <button mat-flat-button class="buttonmargin" style="background-color: rgb(7, 156, 87);">
+      <mat-icon>book</mat-icon> Import </button>
+    <button mat-flat-button class="buttonmargin" style="background-color: rgb(197, 49, 49);">
+      <mat-icon>delete</mat-icon> Delete(selected) </button>
+  </div>
+
+</div>
+
+<div class="marginclass">
+  <mat-card>
+    <mat-toolbar class="toolbarheardcard">
+      <span class="textheardcard">
+        <mat-icon>search</mat-icon>
+        <span>Search</span>
+      </span>
+      </mat-toolbar>
+
+      <div class="inputbox">
+        <Table class="bordertable1">
+          <tr>
+            <td id="name">Product name</td>
+            <td><input class="inputboxin"></td>
+            <td id="name">Warehouse</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option>Warehouse1 (New York)</option>
+                <option>Warehouse1 (Los Angeles)</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td id="name">Category</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option >Computers</option>
+                <option>Computer>>Desktop</option>
+                <option>Computer>>Notebooks</option>
+                <option>Computer>>Software</option>
+                <option>Electronics</option>
+                <option>Electronics>>Camera&photo</option>
+                <option>Electronics>>Cell phones</option>
+                <option>Electronics>>Others</option>
+                <option>Apparel</option>
+                <option>Apparel>>Shoes</option>
+                <option>Apparel>>Clothing</option>
+                <option>Apparel>>Accessories</option>
+                <option>Digital downloads</option>
+                <option>Books</option>
+                <option>Jewelry</option>
+                <option>Gift Cards</option>
+              </select>
+            </td>
+            <td id="name">Product type</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option >Simple</option>
+                <option>Grouped(product with variants)</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td id="name">Search subcategories</td>
+            <td><mat-checkbox></mat-checkbox></td>
+            <td id="name">Published</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option >Published only</option>
+                <option>Unpublished only</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td id="name">Manufacturer</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option >Apple_Test</option>
+                <option>Apple</option>
+                <option>HP</option>
+                <option>Nike</option>
+              </select>
+            </td>
+            <td id="name">Go directly to product SKU</td>
+            <td ><input class="inputboxGO"><button class="buttonGO">GO</button></td>
+          </tr>
+          <tr>
+            <td id="name">Vendor</td>
+            <td>
+              <select matNativeControl class="inputboxin">
+                <option value="" selected>ALL</option>
+                <option >Vendor1</option>
+                <option>Vendor2</option>
+              </select>
+            </td>
+          </tr>
+        </Table>
+      </div>
+
+      <div class="buttonlastcard">
+        <button mat-flat-button class="buttonmargin" style="background-color: rgb(0, 183, 255);">
+          <mat-icon>search</mat-icon>Search</button>
+      </div>
+  </mat-card>
+</div>
+
+<div class="marginclass">
+  <mat-card>Learn more about <a href="">products</a>
+    <table class="bordertable">
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <th>Picture</th>
+        <th>Product name</th>
+        <th>SKU</th>
+        <th>Price</th>
+        <th>Stock quantity</th>
+        <th>Published</th>
+        <th>Edit</th>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Build your own computer</td>
+        <td>COMP_CUST</td>
+        <td>1200</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th><mat-checkbox></mat-checkbox></th>
+        <td><img src="assets/images/pngicon.jpg" width="100" height="100"></td>
+        <td>Digital Storm VANQUISH 3 Custom Performance PC</td>
+        <td>DS_VA3_PC</td>
+        <td>1259</td>
+        <td>10000</td>
+        <td><mat-icon style="font-weight: bold; color:rgb(28, 122, 185);">done</mat-icon></td>
+        <td>
+          <button mat-flat-button class="buttonedit">
+            <mat-icon>edit</mat-icon>Edit</button>
+        </td>
+      </tr>
+    </table>
+    <div class="buttonlastcard"> 1-15 of 45 items </div>
+  </mat-card>
+</div>
+
+<div>
+  <mat-card class="marginclass">
+
+  </mat-card>
+</div>

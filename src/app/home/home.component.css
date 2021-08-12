@@ -1,0 +1,7 @@
+body{
+  background-color: silver;
+}
+.container{
+  float: left;
+  width: 89%;
+}
